@@ -22,19 +22,20 @@ Gem::Specification.new do |spec|
   spec.executables           = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths         = ["lib"]
 
-  spec.add_dependency "activerecord", ">= 5.0"
-  spec.add_dependency "activesupport", ">= 5.0"
-  spec.add_dependency "pg", ">= 0.18.1"
+  spec.add_dependency "activerecord"
+  spec.add_dependency "activesupport"
+  spec.add_dependency "pg"
 
-  spec.add_development_dependency "appraisal", "~> 2.2.0"
-  spec.add_development_dependency "bundler", "~> 2.1.4"
-  spec.add_development_dependency "database_cleaner", "~> 1.6.0"
+  spec.add_development_dependency "appraisal"
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "database_cleaner"
   spec.add_development_dependency "awesome_print"
   spec.add_development_dependency "pry"
+  spec.add_development_dependency "dotenv-rails"
   spec.add_development_dependency "pry-doc"
   spec.add_development_dependency "pry-nav"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.6.0"
-  spec.add_development_dependency "rubocop", "~> 0.48.1"
-  spec.add_development_dependency "standalone_migrations", "~> 5.2.0"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "standalone_migrations"
 end
