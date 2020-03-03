@@ -29,8 +29,6 @@ Metrics/BlockLength:
   Enabled: false
 Security/YAMLLoad:
   Enabled: false
-Style/AlignParameters:
-  Enabled: false
 Style/ClassAndModuleChildren:
   Enabled: false
 Style/ClassVars:
@@ -43,11 +41,9 @@ Style/FileName:
   Enabled: false
 Style/GuardClause:
   Enabled: false
-Style/IndentHash:
-  Enabled: false
 Style/NilComparison:
   Enabled: false
-Style/OpMethod:
+Naming/BinaryOperatorParameterName:
   Enabled: false
 Style/RescueModifier:
   Enabled: false
@@ -59,5 +55,9 @@ Style/SpaceAroundEqualsInParameterDefault:
   Enabled: false
 Style/StringLiterals:
   EnforcedStyle: double_quotes
-Performance/EndWith:
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
   Enabled: false
